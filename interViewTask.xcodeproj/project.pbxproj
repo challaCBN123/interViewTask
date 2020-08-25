@@ -82,16 +82,13 @@
 		4C1E484224E6E6EE00F114B5 /* interViewTask */ = {
 			isa = PBXGroup;
 			children = (
-				4C1E484324E6E6EE00F114B5 /* AppDelegate.swift */,
-				4C1E484524E6E6EE00F114B5 /* SceneDelegate.swift */,
-				4C1E485A24E6E71000F114B5 /* urlDataFromService.swift */,
-				4C1E485C24E6E7CF00F114B5 /* BaseServices.swift */,
-				4C0C717B24F395B90071B6BA /* utilities.swift */,
+				4C21BE9C24F524EE00AD59DC /* delegates */,
 				4C14F30E24F26A9400A0B93E /* videoLauncher.swift */,
-				4C1E484724E6E6EE00F114B5 /* ViewController.swift */,
-				4CEFCB1224ED85E000448466 /* playerVC.swift */,
-				4CEDC09A24EBDD4200A85801 /* dataCell.swift */,
-				4CEDC09B24EBDD4200A85801 /* dataCell.xib */,
+				4C21BE9B24F524D400AD59DC /* DataStructure */,
+				4C21BE9924F5249A00AD59DC /* Services */,
+				4C21BE9A24F524A700AD59DC /* Utilities */,
+				4C21BE9724F5246100AD59DC /* controllers */,
+				4C21BE9824F5247900AD59DC /* dataCellXib */,
 				4C1E484924E6E6EE00F114B5 /* Main.storyboard */,
 				4C1E484F24E6E6F400F114B5 /* Assets.xcassets */,
 				4C1E485124E6E6F400F114B5 /* LaunchScreen.storyboard */,
@@ -99,6 +96,57 @@
 				4C1E484C24E6E6EE00F114B5 /* interViewTask.xcdatamodeld */,
 			);
 			path = interViewTask;
+			sourceTree = "<group>";
+		};
+		4C21BE9724F5246100AD59DC /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4C1E484724E6E6EE00F114B5 /* ViewController.swift */,
+				4CEDC09A24EBDD4200A85801 /* dataCell.swift */,
+				4CEFCB1224ED85E000448466 /* playerVC.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		4C21BE9824F5247900AD59DC /* dataCellXib */ = {
+			isa = PBXGroup;
+			children = (
+				4CEDC09B24EBDD4200A85801 /* dataCell.xib */,
+			);
+			path = dataCellXib;
+			sourceTree = "<group>";
+		};
+		4C21BE9924F5249A00AD59DC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4C1E485C24E6E7CF00F114B5 /* BaseServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4C21BE9A24F524A700AD59DC /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				4C0C717B24F395B90071B6BA /* utilities.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		4C21BE9B24F524D400AD59DC /* DataStructure */ = {
+			isa = PBXGroup;
+			children = (
+				4C1E485A24E6E71000F114B5 /* urlDataFromService.swift */,
+			);
+			path = DataStructure;
+			sourceTree = "<group>";
+		};
+		4C21BE9C24F524EE00AD59DC /* delegates */ = {
+			isa = PBXGroup;
+			children = (
+				4C1E484324E6E6EE00F114B5 /* AppDelegate.swift */,
+				4C1E484524E6E6EE00F114B5 /* SceneDelegate.swift */,
+			);
+			path = delegates;
 			sourceTree = "<group>";
 		};
 		B6C53C3E31BA50B62CB2B637 /* Pods */ = {
